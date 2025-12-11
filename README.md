@@ -16,14 +16,14 @@ https://code.earthengine.google.com/c19408fda763bd92e3e5bcfe2457ba67
 Foi criado um ponto no mapa (geometria do tipo Point), utilizado como filtro espacial para selecionar imagens da coleção Sentinel.  
 Essa primeira filtragem retornou 224 imagens.
 
-(tela1)
+(tela1.png)
 
 ---
 
 ## ⏳ 2. Filtro espacial + filtro temporal  
 Além do filtro espacial, aplicou-se um filtro de datas, reduzindo a coleção para 21 imagens disponíveis dentro do intervalo definido.
 
-(tela2)
+(tela2.png)
 
 ---
 
@@ -31,7 +31,7 @@ Além do filtro espacial, aplicou-se um filtro de datas, reduzindo a coleção p
 As imagens foram organizadas pela porcentagem de cobertura de nuvens.  
 A cena com menor presença de nuvens foi selecionada como a melhor imagem para visualização.
 
-(tela3)
+(tela3.png)
 
 ---
 
@@ -39,14 +39,14 @@ A cena com menor presença de nuvens foi selecionada como a melhor imagem para v
 Foi criada uma composição utilizando as bandas tradicionais de cor verdadeira, representando o cenário de forma semelhante ao que o olho humano enxerga.  
 Essa composição foi adicionada ao mapa como camada de visualização.
 
-(tela4)
+(tela4.png)
 ---
 
 ## 🌱 5. Composição em Falsa Cor (Vegetação)  
 Também foi gerada uma composição em falsa cor, usando bandas sensíveis ao infravermelho.  
 Essa técnica realça a vegetação, onde áreas mais brilhantes indicam maior vigor vegetativo.
 
-(tela5)
+(tela5.png)
 
 ---
 
