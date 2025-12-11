@@ -16,14 +16,14 @@ https://code.earthengine.google.com/c19408fda763bd92e3e5bcfe2457ba67
 Foi criado um ponto no mapa (geometria do tipo Point), utilizado como filtro espacial para selecionar imagens da coleção Sentinel.  
 Essa primeira filtragem retornou 224 imagens.
 
-(assets/tela1)
+(tela1)
 
 ---
 
 ## ⏳ 2. Filtro espacial + filtro temporal  
 Além do filtro espacial, aplicou-se um filtro de datas, reduzindo a coleção para 21 imagens disponíveis dentro do intervalo definido.
 
-(assets/tela2)
+(tela2)
 
 ---
 
@@ -31,7 +31,7 @@ Além do filtro espacial, aplicou-se um filtro de datas, reduzindo a coleção p
 As imagens foram organizadas pela porcentagem de cobertura de nuvens.  
 A cena com menor presença de nuvens foi selecionada como a melhor imagem para visualização.
 
-(assets/tela3)
+(tela3)
 
 ---
 
@@ -39,14 +39,14 @@ A cena com menor presença de nuvens foi selecionada como a melhor imagem para v
 Foi criada uma composição utilizando as bandas tradicionais de cor verdadeira, representando o cenário de forma semelhante ao que o olho humano enxerga.  
 Essa composição foi adicionada ao mapa como camada de visualização.
 
-(assets/tela4)
+(tela4)
 ---
 
 ## 🌱 5. Composição em Falsa Cor (Vegetação)  
 Também foi gerada uma composição em falsa cor, usando bandas sensíveis ao infravermelho.  
 Essa técnica realça a vegetação, onde áreas mais brilhantes indicam maior vigor vegetativo.
 
-(assets/tela5)
+(tela5)
 
 ---
 
@@ -54,7 +54,6 @@ Essa técnica realça a vegetação, onde áreas mais brilhantes indicam maior v
 Como etapa final, foi exibida uma composição global da coleção Landsat 8 referente ao ano de 2016.  
 A coleção completa foi mostrada no mapa utilizando os mesmos parâmetros de visualização definidos anteriormente.
 
-(assets/tela7)
 
 ---
 
